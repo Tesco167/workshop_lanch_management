@@ -1,7 +1,23 @@
+#ignore jasper file
+*.log.*
+*.swp
+
+#ignore pdf file of jasper
+*.pdf
+
+
+.DS_Store
+*.pyc
+settings.py
+
+# Pycharm
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*$py.class
 
 # C extensions
 *.so
@@ -15,7 +31,7 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
+# lib/
 lib64/
 parts/
 sdist/
@@ -43,52 +59,23 @@ htmlcov/
 nosetests.xml
 coverage.xml
 *,cover
-.hypothesis/
 
-# Translations
-*.mo
-*.pot
+# Jasper
+*.jasper
 
-# Django stuff:
-*.log
-local_settings.py
+# Ignore addons folder
 
-# Flask stuff:
-instance/
-.webassets-cache
+addons/
 
-# Scrapy stuff:
-.scrapy
+# IDE and editor specific files #
+#################################
+/nbproject
+.idea
 
-# Sphinx documentation
-docs/_build/
 
-# PyBuilder
-target/
-
-# IPython Notebook
-.ipynb_checkpoints
-
-# pyenv
-.python-version
-
-# celery beat schedule file
-celerybeat-schedule
-
-# dotenv
-.env
-
-# virtualenv
-venv/
-ENV/
-
-# Spyder project settings
-.spyderproject
-
-# Rope project settings
-.ropeproject
-
-# Pycharm
-.idea/workspace.xml
-.idea/tasks.xml
-.idea/*
+# ignore backup file #
+db_*
+db_wrp*
+db_wrp**
+filestore*
+*.pid
