@@ -2,7 +2,7 @@
  <odoo>
     <data>
         <record id="test_github_form" model="ir.ui.view">
-            <field name="name">test.form</field>
+            <field name="name">test.github.form</field>
             <field name="model">test.github</field>
             <field name="arch" type="xml">
                 <form string="test_git">
@@ -11,7 +11,7 @@
             </field>
         </record>
 
-        <record model="ir.actions.act_window" id="test_git_list_action">
+        <record model="ir_actions_act_window" id="test_git_list_action">
             <field name="name">test.list</field>
             <field name="res_model">test.github</field>
             <field name="view_mode">tree,form</field>
