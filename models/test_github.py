@@ -1,6 +1,7 @@
 from odoo import models, fields, api, exceptions
 
-class test_github(models.Model):
+
+class TestGithub(models.Model):
     _name = 'test.github'
 
     name = fields.Char(

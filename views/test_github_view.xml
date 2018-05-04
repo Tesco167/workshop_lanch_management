@@ -2,7 +2,11 @@
  <odoo>
     <data>
         <record id="test_github_form" model="ir.ui.view">
+<<<<<<< HEAD
             <field name="name">test.github.form</field>
+=======
+            <field name="name">test.form</field>
+>>>>>>> 05a99a52c28e62cc5ff6ad1215b8fc3628a7830e
             <field name="model">test.github</field>
             <field name="arch" type="xml">
                 <form string="test_git">
